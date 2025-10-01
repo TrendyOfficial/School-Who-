@@ -10,7 +10,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "dev": "npx convex dev"
+    "dev": "npx convex dev",
+    "build": "expo export:web --output-dir web-build"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
