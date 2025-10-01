@@ -1,5 +1,3 @@
-
-
 {
   "name": "bloom-app-blank-stylesheet",
   "main": "expo-router/entry",
@@ -11,7 +9,7 @@
     "web": "expo start --web",
     "lint": "expo lint",
     "dev": "npx convex dev",
-    "build": "expo export:web --output-dir web-build"
+    "build": "expo export --platform web --output-dir web-build"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
