@@ -67,8 +67,7 @@ export default function GameLobby() {
   const updatePlayer = useMutation(api.players.updatePlayer);
   const removePlayer = useMutation(api.players.removePlayer);
   const updateGameSettings = useMutation(api.games.updateGameSettings);
-  const updateSelectedCa
-tegories = useMutation(api.games.updateSelectedCategories);
+  const updateSelectedCategories = useMutation(api.games.updateSelectedCategories);
   const startGame = useMutation(api.games.startGame);
   const initializeCategories = useMutation(api.categories.initializeCategories);
   
